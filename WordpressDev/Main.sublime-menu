@@ -1,0 +1,58 @@
+[
+	{
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "WordPress",
+                "children":
+                [
+                    {
+                        "caption": "Switch Database",
+                        "command": "wordpress_db_switcher"
+                    },
+                    {
+                        "caption": "Toggle Debug",
+                        "command": "wordpress_debug_toggle"
+                    },
+                    {
+                        "caption": "Open Config File",
+                        "command": "wordpress_open_config"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "WordPressDev",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/WordpressDev/WordPressDev.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/WordPressDev.sublime-settings"},
+                                "caption": "Settings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

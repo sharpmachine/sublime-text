@@ -1,0 +1,32 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"Alternative Autocompletion",
+		"Cucumber",
+		"EditorConfig",
+		"Emmet",
+		"Gitignore",
+		"Haml",
+		"LESS",
+		"Markdown Preview",
+		"Package Control",
+		"PHP Haml",
+		"Prefixr",
+		"Rails Partial",
+		"Ruby on Rails snippets",
+		"RubyTest",
+		"SASS",
+		"Sass",
+		"SASS Build",
+		"SublimeERB",
+		"SublimeLinter",
+		"Twitter Bootstrap Snippets",
+		"WordPress",
+		"Wordpress",
+		"WordpressDev",
+		"ZenCoding"
+	]
+}
