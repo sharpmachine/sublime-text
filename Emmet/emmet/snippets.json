@@ -20,6 +20,10 @@
 
 			"@kf": "@-webkit-keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}\n@-o-keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}\n@-moz-keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}\n@keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}",
 
+			"@mxs": "@media ${1:(max-width: @screen-xs-max)} {\n\t|\n}",
+			"@msm": "@media ${1:(min-width: @screen-sm-min)} {\n\t|\n}",
+			"@mmd": "@media ${1:(min-width: @screen-md-min)} {\n\t|\n}",
+			"@mlg": "@media ${1:(min-width: @screen-lg-min)} {\n\t|\n}",
 
 			"anim": "animation:|;",
 			"anim-": "animation:${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};",
